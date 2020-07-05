@@ -1,9 +1,7 @@
 #!/bin/bash
 
-if
 [ $# -lt 2 ] echo "入力引数が足りません"
-exit 0
-fi
+
 
 m=$1         # dividend
 n=$2          # divisor
