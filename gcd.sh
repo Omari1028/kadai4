@@ -2,7 +2,6 @@
 
 if
 [ $# -lt 2 ] echo "入力引数が足りません"
-else
 exit 0
 fi
 
