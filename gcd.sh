@@ -6,14 +6,12 @@ read a b
 
 nu=1
 
-if
-[ $b　-lt $nu ]
+if [ $b -lt $nu ]
 then
 echo "input two numbers"
 exit 1
 
-elif
-[ $a -lt $nu ]
+elif [ $a -lt $nu ]
 then
 echo "input two numbers"
 exit 1
