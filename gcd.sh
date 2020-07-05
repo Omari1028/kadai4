@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[ $# -lt 2 ] echo "入力引数が足りません"
+[ $# -lt "2" ]  && echo "input two numbers"
 
 
 m=$1         # dividend
