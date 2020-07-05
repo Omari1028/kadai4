@@ -1,12 +1,8 @@
 #!/bin/bash
 
-if [[ $1 -lt $2 ]]; then
-m=$2
-n=$1
-else
+
 m=$1         # dividend
 n=$2          # divisor
-fi
 r=1            # remainder
 
 until [ $r == 0 ]
