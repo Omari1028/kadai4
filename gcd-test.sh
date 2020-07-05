@@ -2,4 +2,4 @@
 
 ehco test
 
-./gcd.sh
+
