@@ -7,13 +7,13 @@ read a b
 nu=1
 
 if
-[ "$b"　-lt "$nu" ]
+[ $b　-lt $nu ]
 then
 echo "input two numbers"
 exit 1
 
 elif
-[ "$a" -lt "$nu" ]
+[ $a -lt $nu ]
 then
 echo "input two numbers"
 exit 1
