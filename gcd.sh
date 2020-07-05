@@ -1,9 +1,5 @@
 #!/bin/bash
 
-echo input two numbers with space
-
-read a b
-
 nu=1
 
 if [ "$a" -lt "1" ] ; then
