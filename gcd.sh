@@ -1,15 +1,10 @@
 #!/bin/bash
+ 
+echo "Enter two numbers with pace"
 
-# Script for finding gcd of two number 
-# echo is for printing the message   
-echo Enter two numbers with space in between 
-  
-# read for scanning 
 read a b 
-  
-# Assigning the value of a to m 
-m = $a 
-  
+
+m = $a   
 # Condition checking if b greater than m 
 # If yes the replace the value of m assign a new value 
 if [ $b -lt $m ] 
@@ -33,5 +28,4 @@ echo gcd of $a and $b is $m
 break
 fi 
 m = `expr $m - 1` 
-  
 done 
