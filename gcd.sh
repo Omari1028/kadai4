@@ -27,5 +27,5 @@ echo $m > /tmp/$$-ans
 echo $n >> /tmp/$$-ans
 echo $r >> /tmp/$$-ans
 
-echo "The GCD of $1 and $2 is $m"
+echo "The GCD of $a and $b is $m"
 fi
