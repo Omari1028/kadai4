@@ -7,13 +7,13 @@ read a b
 nu=1
 
 if
-[ "$a" != "$INTEGER" ];
+[ "$a" -lt "$nu" ];
 then
 echo "input two numbers"
 exit 1
 
 elif
-[ "$b" != "$INTEGER" ];
+[ "$b" -lt "$nu" ];
 then
 echo "input two numbers"
 exit 1
