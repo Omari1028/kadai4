@@ -1,8 +1,7 @@
 #!/bin/bash
 
 if
-[ $# -lt "2" ]  
-[ $# -gt "2" ]
+[ $# != "2" ]  
 then
 echo "input two numbers"
 exit 1
