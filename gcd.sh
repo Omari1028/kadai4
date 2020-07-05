@@ -2,18 +2,14 @@
 
 nu=1
 
-if [ "$a" -lt "1" ] ; then
-echo "input two numbers"
-exit 1
-
-elif [ "$b" -lt "1" ] ; then
+if [ $# != 2 ] ; then
 echo "input two numbers"
 exit 1
 
 else
 
-m=$a         # dividend
-n=$b          # divisor
+m=$1         # dividend
+n=$2          # divisor
 r=1            # remainder
 
 until [ $r == 0 ]
@@ -22,10 +18,6 @@ do
    m=$n
    n=$r
 done
-
-echo $m > /tmp/$$-ans
-echo $a >> /tmp/$$-ans
-echo $b >> /tmp/$$-ans
 
 echo "The GCD of $a and $b is $m"
 fi
