@@ -4,14 +4,16 @@ echo input two numbers with space
 
 read a b
 
+nu=1
+
 if
-[ "$b" -lt 1 ];
+[ "$b"　-lt "$nu" ];
 then
 echo "input two numbers"
 exit 1
 
 elif
-[ "$a" -lt 1 ];
+[ "$a" -lt "$nu" ];
 then
 echo "input two numbers"
 exit 1
