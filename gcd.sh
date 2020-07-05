@@ -3,7 +3,7 @@
 nu=1
 
 if [ $# != 2 ] ; then
-echo "input two numbers"
+echo "input two numbers when you enter gcd.sh"
 exit 1
 
 else
