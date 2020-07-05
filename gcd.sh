@@ -28,8 +28,8 @@ do
 done
 
 echo $m > /home/mohara/kadai4/$$-ans
-echo $n >> /home/mohara/kadai4/$$-ans
-echo $r >> /home/mohara/kadai4/$$-ans
+echo $a >> /home/mohara/kadai4/$$-ans
+echo $b >> /home/mohara/kadai4/$$-ans
 
 echo "The GCD of $a and $b is $m"
 fi
