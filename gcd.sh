@@ -2,7 +2,7 @@
 
 echo input two numbers with space
 
-read 1 2
+read a b
 
 if
 [ $# != "2" ]  
@@ -12,8 +12,8 @@ exit 1
 
 else
 
-m=$1         # dividend
-n=$2          # divisor
+m=$a         # dividend
+n=$b          # divisor
 r=1            # remainder
 
 until [ $r == 0 ]
