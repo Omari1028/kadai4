@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo input two numbers
+echo input two numbers with space
 
-read $1 $2
+read 1 2
 
 if
 [ $# != "2" ]  
