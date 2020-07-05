@@ -1,6 +1,7 @@
 #!/bin/bash
 
 [ $# -lt "2" ]  && echo "input two numbers"
+[ $# -t "2" ]  && echo "input two numbers"
 
 
 m=$1         # dividend
