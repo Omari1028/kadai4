@@ -1,8 +1,9 @@
 #!/bin/bash
 
+if 
 [ $# -lt "2" ]  && echo "input two numbers"
 [ $# -gt "2" ]  && echo "input two numbers!"
-
+exit
 
 m=$1         # dividend
 n=$2          # divisor
