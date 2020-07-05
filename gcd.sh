@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo input two numbers
+
+read $1 $2
+
 if
 [ $# != "2" ]  
 then
