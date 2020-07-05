@@ -1,5 +1,6 @@
 #!/bin/bash
 
+[ $# -lt 2 ] echo "入力引数が足りません"
 
 m=$1         # dividend
 n=$2          # divisor
