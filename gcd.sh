@@ -6,11 +6,11 @@ read a b
 
 nu=1
 
-if [ $a -lt 1 ]; then
+if [ "$a" -lt "1" ] ; then
 echo "input two numbers"
 exit 1
 
-elif [ $b -lt 1 ]; then
+elif [ "$b" -lt "1" ] ; then
 echo "input two numbers"
 exit 1
 
