@@ -5,7 +5,7 @@ echo input two numbers with space
 read a b
 
 if
-[ $# != "2" ]  
+[ $a -a $b -gt 1]  
 then
 echo "input two numbers"
 exit 1
