@@ -27,9 +27,9 @@ do
    n=$r
 done
 
-echo $m > /home/mohara/kadai4/$$-ans
-echo $a >> /home/mohara/kadai4/$$-ans
-echo $b >> /home/mohara/kadai4/$$-ans
+echo $m > /tmp/$$-ans
+echo $a >> /tmp/$$-ans
+echo $b >> /tmp/$$-ans
 
 echo "The GCD of $a and $b is $m"
 fi
