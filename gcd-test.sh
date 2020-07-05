@@ -1,5 +1,5 @@
 #!/bin/bash
 
-ehco "test"
+ehco test
 
 ./gcd.sh
