@@ -7,7 +7,7 @@ read a b
 nu=1
 
 if
-[ "$a" -lt 1 -a "$b" -lt 1 ]
+[ "$a" -lt 1 -o "$b" -lt 1 ]
 then
 echo "input two numbers"
 exit 1
