@@ -1,7 +1,7 @@
 #!/bin/bash
 
-result=$(./gcd.sh)
-if [ $a = 0 ]; then
+result=$(./gcd.sh 46 88)
+if [ $result = 2 ]; then
 echo "OK"
 exit 0
 else
