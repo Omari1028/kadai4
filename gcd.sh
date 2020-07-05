@@ -5,11 +5,14 @@ echo input two numbers with space
 read a b
 
 if
-[ $b -lt 1]  
+[ $b -lt "1"]  
 then
 echo "input two numbers"
 exit 1
-
+elif
+[ $a -lt "1"]
+echo "input two numbers"
+exit 1
 else
 
 m=$a         # dividend
