@@ -19,5 +19,5 @@ do
    n=$r
 done
 
-echo "The GCD of $a and $b is $m"
+echo "The GCD of $1 and $2 is $m"
 fi
