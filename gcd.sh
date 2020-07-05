@@ -5,13 +5,13 @@ echo input two numbers with space
 read a b
 
 if
-[ "$b" = "＄STRING" ];
+[ "$b" -lt "1" ];
 then
 echo "input two numbers"
 exit 1
 
 elif
-[ "$a" = "STRING" ];
+[ "$a" -lt "1" ];
 then
 echo "input two numbers"
 exit 1
